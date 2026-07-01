@@ -1,7 +1,0 @@
-{
-    "files.associations": {
-        "iostream": "cpp"
-    },
-    "editor.formatOnSave": true,
-    "C_Cpp.clang_format_fallbackStyle": "{BasedOnStyle: LLVM, BreakBeforeBraces: Attach, SpaceBeforeParens: Never}"
-}
