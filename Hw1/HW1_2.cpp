@@ -6,7 +6,7 @@ int main() {
     cout << "1 2 3 4";
     cout << endl;
     cout << "Using one statement with four stream insertion operators:" << endl;
-    cout << "1 " << "2 " << "3 " << 4 ;
+    cout << "1 " << "2 " << "3 " << "4";
     cout << endl;
     cout << "Using four statements:" << endl;
     cout << "1 ";

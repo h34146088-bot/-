@@ -23,19 +23,15 @@ int main() {
 }
 
 void reverse(char *s) {
-    // Initialize length counter and save the starting position
     int len = 0;
     char *start = s;
 
-    // Calculate the length of the string by moving through until null terminator
     for(; *s != '\0'; s++) {
         len++;
     }
 
-    // Reset pointer to the beginning of the string
     s = start;
 
-    // Swap characters from both ends moving towards the middle
     char original;
     for(int i = 0; i < len / 2; i++) {
         original = *(s + i);
